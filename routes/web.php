@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+/** Socialite Apple **/
+Route::get('socialite/apple', 'SocialiteAppleController@redirectToProvider');
+Route::get('socialite/apple/callback', 'SocialiteAppleController@handleProviderCallback');

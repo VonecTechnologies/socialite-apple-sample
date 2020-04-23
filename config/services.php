@@ -30,4 +30,11 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    "apple" => [
+        "key_id" => env("APPLE_KEY_ID"),
+        "team_id" => env("APPLE_TEAM_ID"),
+        "client_id" => env("APPLE_CLIENT_ID"),
+        "client_secret" => env("APPLE_CLIENT_SECRET"),
+    ],
+
 ];
