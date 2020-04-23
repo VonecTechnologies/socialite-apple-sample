@@ -14,7 +14,7 @@ class SocialiteAppleController extends Controller
      */
     public function redirectToProvider()
     {
-        return Socialite::with('apple')->redirect();
+        return Socialite::driver('apple')->redirect();
     }
 
     /**
