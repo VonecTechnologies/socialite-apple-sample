@@ -12,9 +12,13 @@ class SocialiteAppleController extends Controller
      *
      * @return \Illuminate\Http\RedirectResponse|\Symfony\Component\HttpFoundation\RedirectResponse
      */
-    public function redirectToProvider()
+    public function redirectToProvider($provider)
     {
-        return Socialite::driver('apple')->redirect();
+        return Socialite::driver($provider)
+                        ->scopes(["name", "email"])
+                        ->stateless()
+                        ->redirect();
+        //return Socialite::driver('apple')->stateless()->redirect();
     }
 
     /**
@@ -22,9 +26,12 @@ class SocialiteAppleController extends Controller
      *
      * @return mixed
      */
-    public function handleProviderCallback()
+    public function handleProviderCallback($provider)
     {
-        $user = Socialite::driver('apple')->user();
+        $user = Socialite::driver($provider)
+                        ->stateless()
+                        ->user();
+        dd($user);
         return $user;
     }
 }

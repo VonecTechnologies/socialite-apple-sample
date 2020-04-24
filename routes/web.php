@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 /** Socialite Apple **/
-Route::get('socialite/apple', 'SocialiteAppleController@redirectToProvider');
-Route::get('socialite/apple/callback', 'SocialiteAppleController@handleProviderCallback');
+Route::get('socialite/{provider}', 'SocialiteAppleController@redirectToProvider');
+Route::post('socialite/{provider}/callback', 'SocialiteAppleController@handleProviderCallback');

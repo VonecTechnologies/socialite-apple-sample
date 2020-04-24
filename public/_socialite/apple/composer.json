@@ -1,0 +1,12 @@
+{
+    "name": "dckap/apple",
+    "authors": [
+        {
+            "name": "Ahilanm",
+            "email": "ahilanm@dckap.com"
+        }
+    ],
+    "require": {
+        "tienrocker/web-sign-in-with-apple": "^1.1"
+    }
+}
