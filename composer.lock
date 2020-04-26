@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "efa4b482ababbffe119b8506f8f91160",
+    "content-hash": "e5b3ed2fa4cc9e86973facf324ab6d5e",
     "packages": [
         {
             "name": "ahilmurugesan/apple",
-            "version": "v0.0.11",
+            "version": "v0.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ahilmurugesan/sso-apple.git",
-                "reference": "4fab765d66ccc05fc897dab156f57c374d69a305"
+                "reference": "abce1f14142b832a02722541087189fcea8b5ef1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ahilmurugesan/sso-apple/zipball/4fab765d66ccc05fc897dab156f57c374d69a305",
-                "reference": "4fab765d66ccc05fc897dab156f57c374d69a305",
+                "url": "https://api.github.com/repos/Ahilmurugesan/sso-apple/zipball/abce1f14142b832a02722541087189fcea8b5ef1",
+                "reference": "abce1f14142b832a02722541087189fcea8b5ef1",
                 "shasum": ""
             },
             "require": {
@@ -50,7 +50,7 @@
                 }
             ],
             "description": "Apple SSO",
-            "time": "2020-04-26T19:02:35+00:00"
+            "time": "2020-04-26T19:21:25+00:00"
         },
         {
             "name": "asm89/stack-cors",
