@@ -9,7 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
-        "ahilmurugesan/apple": "^0.0.5",
+        "ahilmurugesan/apple": "^0.0.6",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
         "genealabs/laravel-sign-in-with-apple": "^0.4.3",
@@ -17,6 +17,7 @@
         "laravel/framework": "^7.0",
         "laravel/telescope": "^3.2",
         "laravel/tinker": "^2.0",
+        "socialiteproviders/twitter": "^3.0",
         "tienrocker/web-sign-in-with-apple": "^1.1"
     },
     "require-dev": {
